@@ -1,8 +1,3 @@
-<?php
-require_once('mobile_device_detect.php');
-mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net',false); 
-?>
-
 <!DOCTYPE html>
 
 <head>
@@ -15,16 +10,10 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
     <meta name="keywords" content="dan edmonds, pittsburgh designer, pittsburgh developer, pittsburgh web design, pittsburgh web developer, greensburg web design, greensburg web developer, greensburg designer, greensburg developer, irwin designer, irwin developer, irwin web designer, irwin web developer" />
 	<meta name="author" content="Dan Edmonds" />
 	
+	<!-- Check device width for responsive media queries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	
 	<link rel="stylesheet" href="style.css" media="screen, projection" />
-    
-	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-    <script src="scripts.js"></script>
-    
-    <script type="text/javascript" src="http://use.typekit.com/quw8pre.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    
-    <!-- Place this tag in your head or just before your close body tag -->
-	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     
 	<script type="text/javascript">
     
@@ -44,24 +33,6 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
 
 <body>
 
-    <ul id="share">
-    
-        <li>
-        	<a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="danEdmonds">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-		</li>
-        
-        <li>
-        	<!-- Place this tag where you want the +1 button to render -->
-        	<g:plusone size="tall"></g:plusone>
-        </li>
-        
-        <li>
-			<!--<script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/Share" data-url="http://danedmonds.net" data-counter="top"></script>-->
-        </li>
-    
-    </ul>
-
 	<!-- wrapper -->
 	<div id="wrapper">
     
@@ -69,87 +40,101 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
         <div id="wrapper-inner">
             
             <!-- header -->
-            <div id="header">
+            <header id="header">
+            
+            	<div id="about-button"><a href="#about" title="My Story" class="anchorLink"><span>&nbsp;</span></a></div>
                 
                 <div id="logo"><a href="http://danedmonds.net/" title="Logo Link"><span>&nbsp;</span></a></div>
                 
-                <div id="about-button"><a href="#about" title="My Story"><span>&nbsp;</span></a></div>
-                
-          	</div>
+          	</header>
             <!-- /header -->
             
             <!-- work -->
-            <div id="work">
+            <section id="work" class="content">
             
-            	<h1 id="heading-work">my work.</h1>
+            	<h2 id="heading-work">my work.</h2>
+            	
+            	<article class="project">
+                    
+                    <div class="project-image">
+                        <a href="http://courtneybrennan.com/" title="Courtney Brennan" target="_blank"><img src="images/courtneybrennan.jpg" width="420" height="250" alt="" /></a>
+                    </div>
+                    
+                    <h4>Courtney Brennan</h4>
+                    
+                    <p><strong>Role:</strong> Site Design, XHTML5/CSS3, WordPress, jQuery, Responsive</p>
+                
+                </article>
             
-                <div class="project">
+                <article class="project">
                     
                     <div class="project-image">
                         <a href="http://wvsokids.org/" title="West Virginia Symphony Orchestra Kids" target="_blank"><img src="images/wvsokids.jpg" width="420" height="250" alt="" /></a>
                     </div>
                     
-                    <h3>WVSO Kids</h3>
+                    <h4>WVSO Kids</h4>
                     
                     <p><strong>Role:</strong> Site Design, Branding, XHTML/CSS, WordPress, jQuery, Flash &amp; AS3</p>
                 
-                </div>
+                </article>
                 
-                <div class="project">
+                <article class="project">
                     
-   				  <div class="project-image">
-                        <a href="archives/naturalwellnesscenter/" title="Natural Wellness Center" target="_blank"><img src="images/naturalwellnesscenter.jpg" width="420" height="250" alt="" /></a>
+                    <div class="project-image">
+                        <a href="http://www.customsurface.com/" title="Custom Surface" target="_blank"><img src="images/customsurface.jpg" width="420" height="250" alt="" /></a>
                     </div>
                     
-                    <h3>Natural Wellness Center &mdash; Concept</h3>
+                    <h4>Custom Surface</h4>
                     
-                    <p><strong>Role:</strong> Client Collaboration, Site Design, XHTML/CSS</p>
+                    <p><strong>Role:</strong> XHTML/CSS, Joomla!, jQuery<br />
+                    <strong>Designed by:</strong> <a href="http://fargodesignco.com/web/">Fargo Design Co.</a></p>
                 
-                </div>
+                </article>
                 
-                <div class="launch-site-wrap">
-                
-   				  <div class="launch-site left">
+                <article class="project">
                     
-                    	<div class="launch-site-button"><a href="http://wvsokids.org/" title="WVSO Kids" target="_blank"><span>&nbsp;</span></a></div>
-                    
+                    <div class="project-image">
+                        <a href="http://toddchalfant.com/" title="Todd Chalfant Photographer" target="_blank"><img src="images/toddchalfant.jpg" width="420" height="250" alt="" /></a>
                     </div>
                     
-                    <div class="launch-site right">
+                    <h4>Todd Chalfant Photographer</h4>
                     
-                    	<div class="launch-site-button"><a href="archives/naturalwellnesscenter/" title="Natural Wellness Center" target="_blank"><span>&nbsp;</span></a></div>
+                    <p><strong>Role:</strong> Client Collaboration, Site Design, XHTML/CSS, WordPress, jQuery</p>
+                
+                </article>
+                
+                <article class="project">
                     
+                    <div class="project-image">
+                        <a href="http://audiopostpittsburgh.com/" title="Audio Post Pittsburgh" target="_blank"><img src="images/audiopostpittsburgh.jpg" width="420" height="250" alt="" /></a>
                     </div>
-                
-                </div>
-                
-                <div class="project" style="clear: both">
-                  
-                  <div class="project-image">  
-                      <a href="archives/richdataland" title="Richard W. Land" target="_blank"><img src="images/richdataland.jpg" width="420" height="250" alt="" /></a>
-                  </div>
-                  
-                  <h3>Richard W. Land</h3>
                     
-                  <p><strong>Role:</strong> Client Collaboration, Site Design, XHTML/CSS, jQuery</p>
-                
-                </div>
-                
-                <div class="launch-site-wrap">
-                
-   				  <div class="launch-site left">
+                    <h4>Audio Post Pittsburgh</h4>
                     
-                    	<div class="launch-site-button"><a href="http://richdataland.net/" title="Richard W. Land" target="_blank"><span>&nbsp;</span></a></div>
+                    <p><strong>Role:</strong> Client Collaboration, XHTML/CSS, jQuery</p>
+                
+                </article>
+                
+                <article class="project">
                     
+                    <div class="project-image">
+                        <a href="http://www.paceschool.org/" title="Pace School" target="_blank"><img src="images/paceschool.jpg" width="420" height="250" alt="" /></a>
                     </div>
+                    
+                    <h4>Pace School</h4>
+                    
+                    <p><strong>Role:</strong> Client Collaboration, XHTML/CSS, WordPress, jQuery<br />
+                    <strong>Designed by:</strong> <a href="http://fargodesignco.com/web/">Fargo Design Co.</a></p>
                 
-                </div>
+                </article>
+                
+                <div class="clear"></div>
             
-            </div>
+            </section>
             <!-- /work -->
             
             <!-- about -->
-            <div id="about">
+            <section id="about" class="content">
             
             	<div id="up-button"><a href="#header" title="Go to top"><span>&nbsp;</span></a></div>
             
@@ -157,30 +142,26 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
                 
                     <div>
                     
-                        <h1 id="heading-about">hi, i'm dan edmonds.</h1>
+                        <h2 id="heading-about">hi, i'm dan edmonds.</h2>
                         
-                        <div id="bio">
+                        <div id="bio" class="left">
                         
-                        	<p>I'm a passionate user interface designer and WordPress developer based just outside of Pittsburgh, Pennsylvania working as the part-time Multimedia Producer at <a href="http://www.pmi.tv" target="_blank">PMI</a>.</p>
+                        	<p>I'm a passionate user interface designer and WordPress developer residing just outside of Pittsburgh, Pennsylvania. I'm the Multimedia Producer at <a href="http://www.pmi.tv" target="_blank">PMI</a>.</p>
                             
                             <p>I love crafting beautiful and intuitive design solutions with an emphasis on simplicity, usability and accessibility. My admiration for web standards is perfectly complemented by executing clean, hand-coded mark-up while keeping readability and clarity of content in mind.</p>
                             
 							<p>I’ve recently taken a particular interest in the transition of web content to a mobile format and the design process and development behind it.</p>
                             
-                            <p>When I'm not working, you can find me with my <!--beautiful--> girlfriend, playing iPhone games, or driving my <a href="http://www.flickr.com/photos/64959750@N02/sets/72157627022788769/" target="_blank">little slice of Europe</a>.</p>
+                            <p>When I'm not working, you can find me with my girlfriend, playing iPhone games, or driving my <a href="http://www.flickr.com/photos/64959750@N02/sets/72157627022788769/" target="_blank">little slice of Europe</a>.</p>
                             
-                            <h2>email.</h2>
-                            <p><a href="mailto:dan@danedmonds.net">dan@danedmonds.net</a><br />
-                            <!-- <a href="">@danEdmonds</a> <strong>/ twitter</strong><br /> --></p>
-                            
-                            <h2>voice.</h2>
-                            <p>+1 724.493.5919</p>
+                            <h3>email.</h3>
+                            <p><a href="mailto:dan@danedmonds.net">dan@danedmonds.net</a></p>
                         
                         </div>
                         
-                        <div id="contact">
+                        <div id="contact" class="right">
                             
-                            <h2>capabilities.</h2>
+                            <h4>capabilities.</h4>
                             
                             <ul>
                                 <li>Standards-compliant, <mark>HTML5</mark></li>        
@@ -199,6 +180,8 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
                             </ul>
                         
                         </div>
+                        
+                        <div class="clear"></div> 
                     
                     </div>
                     
@@ -207,19 +190,24 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
                     
                 </div>
             
-            </div>            
+            </section>           
             <!-- /about -->
             
             <!-- footer -->
-			<div id="footer">
+			<footer id="footer" class="content">
+			
+				<?php 
+				$time = time () ; 
+				$year= date("Y",$time);
+				?> 
                 
-                <p>&copy; Copyright 2011 Dan Edmonds, All Rights Reserved</p>
+                <p>&copy; Copyright <?php echo $year; ?> Dan Edmonds, All Rights Reserved</p>
                 
                 <!--Featured in the National <A href="http://www.webdesigners-directory.com">Web Design</A> Directory-->
                 
                 <div class="clear"></div>
                 
-          	</div>
+          	</footer>
             <!-- /footer -->
             
         </div>
@@ -227,6 +215,9 @@ mobile_device_detect(true,true,true,true,true,true,true,'http://m.danedmonds.net
     
     </div>
 	<!-- /wrapper -->
+	
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="scripts.js"></script>
 
 </body>
 
