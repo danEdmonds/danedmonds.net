@@ -6,8 +6,8 @@
 
 	<title>Dan Edmonds &raquo; freelance web designer &amp; WordPress developer &mdash; Greensburg, PA</title>
     
-    <meta name="description" content="I'm Dan Edmonds, and I'm a freelance user interface designer &amp; web developer from Greensburg, PA. I specialize in user interface design and WordPress development." />
-    <meta name="keywords" content="dan edmonds, pittsburgh designer, pittsburgh developer, pittsburgh web design, pittsburgh web developer, greensburg web design, greensburg web developer, greensburg designer, greensburg developer, irwin designer, irwin developer, irwin web designer, irwin web developer" />
+	<meta name="description" content="I'm Dan Edmonds, and I'm a freelance user interface designer &amp; web developer from Greensburg, PA. I specialize in user interface design and WordPress development." />
+	<meta name="keywords" content="dan edmonds, pittsburgh designer, pittsburgh developer, pittsburgh web design, pittsburgh web developer, greensburg web design, greensburg web developer, greensburg designer, greensburg developer, irwin designer, irwin developer, irwin web designer, irwin web developer" />
 	<meta name="author" content="Dan Edmonds" />
 	
 	<!-- Check device width for responsive media queries -->
