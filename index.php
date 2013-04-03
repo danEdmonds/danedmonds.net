@@ -62,7 +62,7 @@
                     
                     <h4>Courtney Brennan</h4>
                     
-                    <p><strong>Role:</strong> Site Design, XHTML5/CSS3, WordPress, jQuery, Responsive</p>
+                    <p><strong>Role:</strong> User Interface Design, XHTML5/CSS3, WordPress, jQuery, Responsive</p>
                 
                 </article>
             
@@ -74,7 +74,7 @@
                     
                     <h4>WVSO Kids</h4>
                     
-                    <p><strong>Role:</strong> Site Design, Branding, XHTML/CSS, WordPress, jQuery, Flash &amp; AS3</p>
+                    <p><strong>Role:</strong> User Interface Design, Branding, XHTML/CSS, WordPress, jQuery, Flash &amp; AS3</p>
                 
                 </article>
                 
@@ -99,7 +99,7 @@
                     
                     <h4>Todd Chalfant Photographer</h4>
                     
-                    <p><strong>Role:</strong> Client Collaboration, Site Design, XHTML/CSS, WordPress, jQuery</p>
+                    <p><strong>Role:</strong> Client Collaboration, User Interface Design, XHTML/CSS, WordPress, jQuery</p>
                 
                 </article>
                 
@@ -128,17 +128,17 @@
                 
                 </article>
                 
-                <!--<article class="project">
+                <article class="project">
                     
                     <div class="project-image">
-                        <a href="http://www.danedmonds.net/archives/naturalwellnesscenter/" title="Pace School" target="_blank"><img src="images/naturalwellnesscenter.jpg" width="420" height="250" alt="" /></a>
+                        <a href="http://www.danedmonds.net/images/ThomasBWeigel_UI_Concept2010.jpg" title="Thomas B. Weigel" target="_blank"><img src="images/thomasbweigel.jpg" width="420" height="250" alt="" /></a>
                     </div>
                     
-                    <h4>Natural Wellness Center Concept</h4>
+                    <h4>Thomas B. Weigel WordPress Theme Design Concept</h4>
                     
-                    <p><strong>Role:</strong> Site Design, XHTML/CSS</p>
+                    <p><strong>Role:</strong> User Interface Design</p>
                 
-                </article>-->
+                </article>
                 
                 <div class="clear"></div>
             
