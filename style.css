@@ -118,7 +118,9 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 	background: url(images/about-button.jpg) no-repeat 0 0; 
 }
 
-#about-button a { text-decoration: none; }
+#about-button a { 
+	text-decoration: none; 
+}
 
 /* Content
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
