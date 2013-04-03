@@ -1,7 +1,8 @@
 /* Styles */
 /* By Dan Edmonds (http://danedmonds.net) */
 
-/*-- Reset --------------- */
+/* Reset
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,7 +31,9 @@ q:before, q:after { content: ""; }
 
 blockquote, q { quotes: "" ""; }
 
-/*-- Main Styles --------------- */
+/* Structure
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: left; background: #041721 url(images/bg.jpg) repeat-x top; }
 
 @font-face {
@@ -44,9 +47,9 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
     font-style: normal;
 }
 
-/*-- Wrapper --------------- */
-
-#wrapper { overflow: hidden; }
+#wrapper { 
+	overflow: hidden; 
+}
 	
 #wrapper-inner { 
 	margin: 0 auto; 
@@ -55,8 +58,6 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 	width: 95%;
 	max-width: 940px; 
 }
-
-/*-- Header --------------- */
 
 #header { 
 	float: left; 
@@ -73,7 +74,8 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 	
 }
 
-/* Logo */
+/* Logo
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #logo { 
 	position: relative; 
@@ -95,7 +97,8 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 
 #logo a { text-decoration: none; }
 	
-/* About Button */
+/* About Button
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #about-button { 
 	position: relative; 
@@ -117,7 +120,9 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 
 #about-button a { text-decoration: none; }
 
-/*-- Content --------------- */
+/* Content
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 .content a:link, 
 .content a:visited, 
 .content a:active { 
@@ -131,10 +136,12 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 	margin-bottom: 0; 
 	font-size: 3.6em; 
 	color: #fff; 
-	/*text-indent: -5005px; 
+	/*
+	text-indent: -5005px; 
 	width: 900px; 
 	height: 36px; 
-	margin-left: -1px;*/ 
+	margin-left: -1px;
+	*/ 
 	font-family: 'ITCAvantGardeGothicStdDemi', "Arial", Verdana, sans-serif; 
 }
 
@@ -142,8 +149,15 @@ body { font: 62.5% "Arial", Verdana, sans-serif; color: #b8c5cc; text-align: lef
 	margin-left: 20px; 
 }
 
-/*h1#heading-work { background: url(images/heading-work.png) no-repeat 0 0; }
-h1#heading-about { background: url(images/heading-about.png) no-repeat 0 0; }*/
+/*
+h1#heading-work { 
+	background: url(images/heading-work.png) no-repeat 0 0; 
+}
+
+h1#heading-about { 
+	background: url(images/heading-about.png) no-repeat 0 0; 
+}
+*/
 
 .content h4 { 
 	margin-bottom: .6em; 
@@ -198,7 +212,8 @@ h1#heading-about { background: url(images/heading-about.png) no-repeat 0 0; }*/
 	background: rgba(5,153,188,.5); 
 }
 
-/*-- Work --------------- */
+ /* Work
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #work { 
 	float: left;
@@ -222,7 +237,11 @@ h1#heading-about { background: url(images/heading-about.png) no-repeat 0 0; }*/
 	height: 370px;
 }
 
-/*#work .project .project-image span { position: absolute; width: 430px; height: 260px; z-index: 10; }*/
+/*
+#work .project .project-image span { 
+	position: absolute; width: 430px; height: 260px; z-index: 10; 
+}
+*/
 
 #work .project .project-image { 
 	position: relative; 
@@ -240,22 +259,50 @@ h1#heading-about { background: url(images/heading-about.png) no-repeat 0 0; }*/
 	
 }
 
-/*#work .project .project-image a:hover:after { 
+/*
+#work .project .project-image a:hover:after { 
 	background: #000 url(images/launch-site-button.jpg) no-repeat center; 
 	cursor: pointer; 
 	position: absolute; 
 	width: 100%; 
 	height: 30px; 
-}*/
+}
 
-/*.launch-site-wrap { width: 900px; margin: 0 20px 30px; float: left; }
+.launch-site-wrap { 
+	width: 900px; 
+	margin: 0 20px 30px; 
+	float: left; 
+}
+
 .launch-site { width: 430px; }
-.launch-site-button { position: relative; float: left; display: inline; width: 145px; height: 38px; overflow: hidden; }
-.launch-site-button span { position: absolute; width: 100%; height: 100%; background: url(images/launch-site-button.jpg) no-repeat 0 0; }
-.launch-site-button span:hover { background: url(images/launch-site-button.jpg) no-repeat 0 -38px; }
-.launch-site-button a { text-decoration: none; }*/
 
-/*-- About --------------- */
+.launch-site-button { 
+	position: relative; 
+	float: left; 
+	display: inline; 
+	width: 145px; 
+	height: 38px; 
+	overflow: hidden; 
+}
+
+.launch-site-button span { 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	background: url(images/launch-site-button.jpg) no-repeat 0 0; 
+}
+
+.launch-site-button span:hover { 
+	background: url(images/launch-site-button.jpg) no-repeat 0 -38px; 
+}
+
+.launch-site-button a { 
+	text-decoration: none; 
+}
+*/
+
+/* About
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #about { 
 	float: left;
@@ -308,17 +355,21 @@ span#stretch {
 	max-width: 320px;
 }
 
-/*#about #bio { 
+/*
+#about #bio { 
 	float: left; 
 	max-width: 480px; 
 }
 
-#about #bio p { font-size: 1.5em; }
+#about #bio p { 
+	font-size: 1.5em; 
+}
 
 #about #contact { 
 	float: right; 
 	max-width: 320px; 
-}*/
+}
+*/
 
 #up-button { 
 	position: relative; 
@@ -342,7 +393,8 @@ span#stretch {
 	text-decoration: none; 
 }
 
-/*-- Footer --------------- */
+/* Footer
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #footer { 
 	clear: both; 
@@ -353,7 +405,8 @@ span#stretch {
 
 #footer p { font-size: 1.1em; }
 
-/*-- Misc --------------- */
+/* Misc
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .clear { 
 	clear: both; 
@@ -372,11 +425,23 @@ span#stretch {
 	display: inline; 
 }
 
-/*#share { width: auto; position: fixed; top: 50px; left: 50px; margin: 0; }
-#share li { list-style-type: none; margin: 0 auto 20px; width: auto; }*/
+/*
+#share { 
+	width: auto; 
+	position: fixed; 
+	top: 50px; 
+	left: 50px; margin: 0; 
+}
 
-/* @group all mobile devices
-================================================================================= */
+#share li { 
+	list-style-type: none; 
+	margin: 0 auto 20px; 
+	width: auto; 
+}
+*/
+
+/* all mobile devices
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media all and (max-width: 1024px) {
 
@@ -386,10 +451,8 @@ span#stretch {
 
 }
 
-/* @end */
-
-/* @group large tablets
-================================================================================= */
+/* large tablets
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media all and (max-width: 768px) {
 	
@@ -470,10 +533,8 @@ span#stretch {
 
 }
 
-/* @end */
-
-/* @group small tablets
-================================================================================= */
+/* small tablets
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media all and (max-width: 600px) {
 
@@ -545,22 +606,16 @@ span#stretch {
 
 }
 
-/* @end */
-
-/* @group landscape mobile photos
-================================================================================= */
+/* landscape mobile photos
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media all and (max-width: 480px) {
 
 }
 
-/* @end */
-
-/* @group portrait mobile photos
-================================================================================= */
+/* portrait mobile photos
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media all and (max-width: 320px) {
 
 }
-
-/* @end */
